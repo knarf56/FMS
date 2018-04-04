@@ -8,6 +8,6 @@
 
 + I'm secretly the best basketball player in the world.
 
-+ I'm suffering from Imposter Syndrome!
++ I'm suffering from Imposter Syndrome!!
 
 [Come check out my Github!](https://github.com/knarf56/)
