@@ -2,3 +2,9 @@ img src {
     width: 45%;
     length: 45%;
 }
+
+body {
+    background-color: orange;
+
+    border: 1px solid black;
+    margin: 1rem;
