@@ -1,0 +1,11 @@
+img {
+  width: 30%;
+  length: 30%;
+}
+
+body {
+    background-color: lightcyan;
+    border: 1px solid red;
+    margin: 1rem;
+
+}
