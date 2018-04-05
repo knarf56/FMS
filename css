@@ -1,4 +1,9 @@
-img width
-{
-    width: 35%;
+img {
+  width: auto;
+  length: auto;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    /* border: 3px dashed green; */
 }
