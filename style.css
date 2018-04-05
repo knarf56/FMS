@@ -1,6 +1,7 @@
 img {
   width: 30%;
   length: 30%;
+  align-items: center;
 }
 
 body {
