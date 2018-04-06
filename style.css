@@ -1,7 +1,7 @@
 img {
   width: 30%;
   length: 30%;
-  
+
 }
 
 body {
@@ -15,15 +15,16 @@ h1 {
 
 }
 
+h2 {
+  color: orange;
+  font-size: 20;
+}
+
 li {
   color: white;
   font-size: 55;
 }
 
 p {
-  color: white;
-}
-
-a href {
   color: white;
 }
