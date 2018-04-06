@@ -1,7 +1,7 @@
 img {
   width: 30%;
   length: 30%;
-  align-items: center;
+  
 }
 
 body {
@@ -17,9 +17,13 @@ h1 {
 
 li {
   color: white;
-  font-size: 20;
+  font-size: 55;
 }
 
 p {
+  color: white;
+}
+
+a href {
   color: white;
 }
