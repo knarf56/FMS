@@ -59,4 +59,10 @@ article {
 body style {
   background-color: black;
   background-image: url("http://barbados.org/images/welcome-to-barbados.jpg");
+  background-size: cover;
+}
+
+div {
+  font-size: 20px;
+  color: white;
 }
