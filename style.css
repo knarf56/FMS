@@ -18,6 +18,9 @@ h1 {
   background-color: red;
   color: white;
   text-align: center;
+  margin-top: 60px;
+  padding: 10px;
+  border: 1px solid #fff;
 
 }
 
@@ -25,6 +28,7 @@ h2 {
   background-color: white;
   color: orange;
   text-align: left;
+  margin-top: 30px;
 }
 
 li {
