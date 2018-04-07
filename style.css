@@ -1,13 +1,15 @@
 img {
-  width: 30%;
-  length: 30%;
-  float: center;
+  width: 15%;
+  length: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
 body {
     background-color: black;
-    background-image : url(http://sickoftheradio.com/wp-content/uploads/2013/06/Maho-Beach-Saint-Martin-plane-landing.jpg);
+    background-image : url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Tennessee_The_Hill.jpg/350px-Tennessee_The_Hill.jpg");
     background-size: cover;
 
 }
@@ -16,18 +18,36 @@ h1 {
   background-color: red;
   color: white;
   text-align: center;
+
 }
 
 h2 {
+  background-color: white;
   color: orange;
-  font-size: 20;
+  text-align: left;
 }
 
 li {
   color: white;
   font-size: 20;
+  list-style: none;
+  margin-right: 10px;
+  float: left;
+}
+
+li a{
+  text-decoration: none;
+  color: #fff;
 }
 
 p {
   color: white;
+}
+
+nav{
+  background-color: red;
+}
+
+article {
+  float: left;
 }
