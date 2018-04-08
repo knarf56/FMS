@@ -4,7 +4,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
 
 }
 
@@ -17,11 +17,11 @@ body {
 }
 
 h1 {
-  background-color: red;
+  background-color: orange;
   color: white;
   text-align: center;
-  margin-top: 100px;
-  padding: 10px;
+  margin-top: 140px;
+  padding: 5px;
   border: 1px solid #fff;
 
 }
@@ -29,8 +29,9 @@ h1 {
 h2 {
   background-color: white;
   color: orange;
-  text-align: left;
-  margin-top: 30px;
+  text-align: center;
+  margin-top: 100px;
+  padding: 5px;
 }
 
 li {
@@ -41,7 +42,7 @@ li {
   float: left;
 }
 
-li a{
+li a {
   text-decoration: none;
   color: #fff;
 }
@@ -50,12 +51,17 @@ p {
   color: white;
 }
 
-nav{
+#navbar {
   background-color: red;
 }
 
-article {
+div article {
   float: left;
+  color: white;
+  font-size: 15px;
+  list-style: none;
+  margin-right: 10px;
+  margin-bottom: 40px;
 }
 
 body style {
