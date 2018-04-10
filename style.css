@@ -34,6 +34,14 @@ h2 {
   padding: 5px;
 }
 
+h3 {
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+
+}
+
 li {
   color: white;
   font-size: 20;
@@ -52,8 +60,39 @@ p {
 }
 
 #navbar {
-  background-color: red;
+  width: 40%;
+  color: red;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
+
+#navbar li a {
+  list-style: none;
+
+}
+
+#nav {
+    width: 40%;
+    color: black;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+}
+
+#nav li a {
+  list-style: none;
+  color: #000;
+  display: inline-table;
+
+}
+
+
 
 div article {
   float: left;
