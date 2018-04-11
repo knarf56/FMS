@@ -55,6 +55,11 @@ li a {
   color: #fff;
 }
 
+#links li a{
+  text-decoration: none;
+  color: #000;
+}
+
 p {
   color: white;
 }
@@ -66,7 +71,7 @@ p {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 10;
+
 }
 
 #navbar li a {
@@ -88,11 +93,8 @@ p {
 #nav li a {
   list-style: none;
   color: #000;
-  display: inline-table;
 
 }
-
-
 
 div article {
   float: left;
@@ -110,4 +112,38 @@ body style {
 div.header {
   text-decoration: none;
   color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.navigation > ul > li {
+  display: inline-block;
+  list-style: none;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1.3em;
+  width: 100vw;
+}
+
+#header {
+  margin-top: 1.3em;
+}
+
+#navbar .dropdown {
+  display: none;
+}
+
+#navbar a:hover + .dropdown {
+  display: block;
+}
+
+.dropdown:hover {
+  display: block;
 }

@@ -18,10 +18,16 @@
 
   </style>
 
-  <div>
-    <ul id="navbar">
+  <div class="navigation" id="navbar">
+    <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="/projects">Projects</a></li>
+      <li><a href="/projects">Projects</a>
+        <ul class="dropdown">
+          <li><a href="#">First Project</a></li>
+          <li><a href="#">Second Project</a></li>
+          <li><a href="#">Third Project</a></li>
+        </ul>
+      </li>
       <li><a href="/media">Media</a></li>
       <li><a href="../contact">Contact</a></li>
     </ul>
@@ -36,12 +42,11 @@
 
 <div id="container">
   <div id="content">
-    <span class="blog_post">Hey! Welcome to my Travel Blog!</span>
+    <span class="blog_post">Hey! Welcome to my Blog!</span>
 
     <div class="blog_post">
       <h4>My First Vacation in 3 Years</h4>
       <p>Last summer, I finally got a chance to travel to Barbados. The best thing about this trip was seeing how laid back everyone was and how easy it was to get around the island. If you love seafood, this is your place lol!</p>
-
 
   </div>
 
@@ -51,9 +56,9 @@
     </ul>
 
 
-  <div id="footer"></div>
+  <div id="footer">
     <p>&copy Frank Smith 2017</p>
-
+  </div>
 
 </body>
 </html>
