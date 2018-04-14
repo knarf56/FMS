@@ -3,9 +3,9 @@ table {
 }
 
 td {
-	background-color: black;
+	background-color: blue;
 	border: 3px solid white;
 	font-size:80px;
-	color:#ffffff;
+	color:#000;
 	border-radius: 10px 10px 10px 10px;
 }
